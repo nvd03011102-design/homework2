@@ -1,0 +1,65 @@
+/* Existing li styling has been commented out */
+
+/*
+li {
+    list-style-type: none;
+}
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    color: #222222;
+}
+
+h1 {
+    text-align: center;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+}
+
+.skip-link:focus {
+    left: 10px;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav a {
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+}
