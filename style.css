@@ -1,3 +1,4 @@
+```css
 /* Existing li styling has been commented out */
 
 /*
@@ -40,6 +41,10 @@ nav a {
     margin: 10px;
 }
 
+nav img {
+    width: 10%;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -63,3 +68,4 @@ nav a {
     height: 160px;
     object-fit: cover;
 }
+```
